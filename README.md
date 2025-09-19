@@ -4,10 +4,9 @@
 
 ```bash
 git clone <your-repo-url>
-cd httpbin_pytest_framework
+cd AssignThinkPalm
 python -m venv .venv
-source .venv/bin/activate   # Linux/MacOS
-.\.venv\Scripts\activate    # Windows
+.\.venv\Scripts\activate    #
 ```
 
 2. **Install dependencies:**
