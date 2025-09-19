@@ -38,23 +38,7 @@ Open `reports/report.html` in a browser.
 
 ---
 
-## 🧪 What is Tested
 
-* **Response formats:**
-
-  * `GET /get`
-  * `GET /json`
-  * `GET /delay/{n}`
-* **Request inspection:**
-
-  * `POST /post`
-  * `PUT /put`
-* **Dynamic data:**
-
-  * Faker-generated payloads for POST/PUT
-* **Retries:**
-
-  * Custom decorator with exponential backoff & logging
 
 
 
