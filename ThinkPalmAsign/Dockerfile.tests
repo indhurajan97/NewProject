@@ -1,0 +1,10 @@
+
+FROM python:3.11-slim
+WORKDIR /workspace
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . /workspace
+RUN apt-get update && apt-get install -y netcat curl && rm -rf /var/lib/apt/lists/*
+RUN chmod +x /workspace/scripts/wait-for-service.sh
+ENTRYPOINT ["/workspace/scripts/wait-for-service.sh"]
+

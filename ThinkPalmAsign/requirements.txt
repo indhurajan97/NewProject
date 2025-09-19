@@ -1,0 +1,11 @@
+pytest
+requests
+pytest-asyncio
+pika
+prometheus_client
+faker
+pyyaml
+python-dotenv
+allure-pytest
+pytest-html
+loguru

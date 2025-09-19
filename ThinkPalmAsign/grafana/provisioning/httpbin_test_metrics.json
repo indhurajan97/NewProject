@@ -1,0 +1,21 @@
+
+{
+  "annotations": {"list": []},
+  "panels": [
+    {
+      "type": "graph",
+      "title": "Test Retry Count",
+      "targets": [
+        {
+          "expr": "test_retries_total",
+          "legendFormat": "{{function}}",
+          "refId": "A"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "title": "HTTPBin Test Metrics",
+  "version": 1
+}
+
