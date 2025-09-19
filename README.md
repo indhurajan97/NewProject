@@ -1,17 +1,4 @@
-# httpbin Pytest Framework
-
-A full-fledged Python test framework targeting [httpbin.org](https://httpbin.org/) that demonstrates:
-
-* ✅ Configuration via `.yaml` and `.env`
-* ✅ Custom retry decorator with detailed logging
-* ✅ Test data generation using Faker and utilities
-* ✅ Pytest-based test suite covering response formats, request inspection, and dynamic data
-* ✅ HTML reports generated automatically (`pytest-html`)
-* ✅ CI workflow to publish reports as artifacts in GitHub Actions
-
-
-
-## ⚙️ Setup
+ ⚙️ Setup
 
 1. **Clone repo & create virtual environment:**
 
